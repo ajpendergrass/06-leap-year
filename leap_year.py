@@ -4,7 +4,7 @@
 
 # Don't forget to reach out for help after your own due diligence
 
-def is_leap(year):
+def is_leap_year(year):
     year = int()
     if year % 100 == 0 and year % 400 == 0: 
        return True
@@ -14,4 +14,4 @@ def is_leap(year):
        return False
  
 
-print(is_leap(year))
+print(is_leap_year(year))
